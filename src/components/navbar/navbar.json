@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_navbar_navbars",
+  "info": {
+    "displayName": "navbar"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "des": {
+      "type": "text"
+    }
+  }
+}
