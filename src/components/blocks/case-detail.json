@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_case_details",
+  "info": {
+    "displayName": "CaseDetail"
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.card"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_share_graphic_intros",
+  "info": {
+    "displayName": "graphicIntro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.button"
+    }
+  }
+}

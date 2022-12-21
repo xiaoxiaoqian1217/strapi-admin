@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_",
+  "info": {
+    "displayName": "轮播图"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

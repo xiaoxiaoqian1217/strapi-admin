@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_share_buttons",
+  "info": {
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.link"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_partners",
+  "info": {
+    "displayName": "partner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "graphic_intros": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::graphic-intro.graphic-intro"
+    }
+  }
+}
