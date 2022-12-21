@@ -12,16 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "image": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "Button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.button"
     },
     "title": {
       "type": "string"
@@ -29,15 +23,16 @@
     "subTitle": {
       "type": "string"
     },
-    "url": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
