@@ -21,7 +21,9 @@
         "share.graphic-intro",
         "blocks.home-feature",
         "blocks.case-detail",
-        "blocks.partner"
+        "blocks.partner",
+        "blocks.marketing-for-guest",
+        "blocks.solution-customer"
       ]
     }
   }

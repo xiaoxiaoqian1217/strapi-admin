@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_marketing_for_guests",
+  "info": {
+    "displayName": "DigitalManagement",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "graphic_intro": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::graphic-intro.graphic-intro"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

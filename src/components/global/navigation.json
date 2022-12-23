@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_global_navigations",
+  "info": {
+    "displayName": "siteHeader",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "leftButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.link"
+    },
+    "loginButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.link"
+    },
+    "regButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.link"
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.logo"
+    },
+    "qySeverIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.logo"
+    },
+    "navigations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::navigation.navigation"
+    }
+  }
+}

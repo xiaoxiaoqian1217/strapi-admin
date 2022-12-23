@@ -4,7 +4,7 @@
   "info": {
     "singularName": "navigation",
     "pluralName": "navigations",
-    "displayName": "导航菜单",
+    "displayName": "Link",
     "description": ""
   },
   "options": {
@@ -12,14 +12,32 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "label": {
       "type": "string"
     },
-    "url": {
-      "type": "text"
+    "href": {
+      "type": "string"
     },
-    "createTab": {
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    },
+    "isExternal": {
       "type": "boolean"
+    },
+    "children": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::navigation.navigation",
+      "mappedBy": "link"
+    },
+    "link": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::navigation.navigation",
+      "inversedBy": "children"
     }
   }
 }

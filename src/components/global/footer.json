@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "text"
+    },
+    "footerFields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.field"
+    },
+    "companyInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.company"
+    }
+  }
+}
