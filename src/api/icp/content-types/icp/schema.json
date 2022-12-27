@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "icps",
+  "info": {
+    "singularName": "icp",
+    "pluralName": "icps",
+    "displayName": "icp"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icpNumber": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    }
+  }
+}
